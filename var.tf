@@ -6,16 +6,13 @@ variable "access_key" {
   description = "The access key to create things in."
   default     = "AKIAWKS4SRN4OEI2WRPG"
 }
+
+
 variable "secret_key" {
   description = "The secret key to create things in."
   default     = "/Rb1bxywH/8hMQ2mzDNz0gDVjB5BBsWDmnr8TSHc"
 }
 
-
-variable "key_name" {
-  description = " SSH keys to connect to ec2 instance"
-  default     =  "aws-key"
-}
 
 variable "instance_type" {
   description = "instance type for ec2"
